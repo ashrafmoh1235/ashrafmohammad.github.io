@@ -1,0 +1,128 @@
+.container{
+			width: 70vw;
+			height: 70vh;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			border: 3px solid green;
+			margin: 9% 15%;
+	       }
+		h1{
+			font-size: 6em;
+			color: green;
+			margin: 0;
+			}
+			a:link, a:visited {
+			background-color: white;
+			color: black;
+			border: 2px solid green;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: block;
+			margin-bottom: 10px;
+			font-size: 35px;
+			
+			}
+			a:hover, a:active {
+			background-color: green;
+			color: white;
+			}
+		.ques_container:{
+			width:70vw;
+			height:70vh;
+			justify-content: left;
+			align-items: left;
+			text-align: left;
+			border:3px solid green;
+			margin:9% 15%;		
+			}
+
+		.allques{
+			margin: 200px 200px;
+				}
+		
+		.textques{  
+			float:left;
+			width: 50%;
+			font-size: 20px;
+			padding:0px;
+				}
+	.textques p {
+		margin: 0;
+		padding-bottom:5px;
+		padding-left:40px;
+		font-weight: bold;
+		}
+	
+		.textScore{
+			width: 50%;
+			float: right;
+			font-size: 20px;
+			padding:0px;
+			font-weight: bold;
+		}
+		.textScore h2{
+			display: flex;
+			float: right;
+			padding-right: 30px;
+			margin: 0;
+
+}
+		.textScore p{
+			float:right;
+			margin:0;
+			padding-right: 3px;
+			padding-top: 5px;
+		}
+.border{border-color: green;
+border-style:solid;
+	width: auto;
+height: auto;
+	padding: 55px ;
+}
+.question:{
+	display: block;
+	float:none;
+	width:100%;
+}
+.question h3{
+	font-size: 1.3rem;
+	margin:0;	
+}
+.question h2{  
+padding-top: 1rem;
+}
+.choices{
+	background-color: white;
+	color:black;
+	border: 2px solid green;
+	padding: 10px;
+	text-align: left;
+	display: block;
+	border-radius: 30px;
+	font-weight: bold;
+	
+}
+.choices h3:hover, .choices h3:active{
+	background-color: #BEC903;
+	color:white;
+	padding: 0.1px;
+}
+.progressText{
+	background-color: white;
+	color:black;
+	border: 2px solid green;
+	padding: 10px;
+	text-align: left;
+	display: block;
+	border-radius: 30px;
+	font-weight: bold;
+	width: 105px;
+}
+#achievers{
+	font-size: 1.5rem;
+	list-style-type: none;
+	
+}
