@@ -1,0 +1,39 @@
+.container{
+			width: 70vw;
+			height: 70vh;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			border:5px;
+			border-style: ridge;
+			border-style:groove;
+			margin: 9% 15%;
+			background-color:burlywood;
+			border-radius: 100px;
+	
+	       }
+		h1{ 
+		text-align: center;
+		color: blueviolet;
+			}
+			a:link, a:visited {
+			background-color: white;
+			color: black;
+			border: 2px solid black;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: block;
+			border-radius: 50px;
+			font-size: 35px;
+			font-family: monospace;
+			
+			}
+			a:hover, a:active {
+			background-color: coral;
+			color: mediumvioletred;
+			}
+.index{ 
+display: inline-grid;
+}
